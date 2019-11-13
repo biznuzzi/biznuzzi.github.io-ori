@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/* 2019.11.12 kang nuri */
+/* index.css */
+
+
+/**************************************************/
+
+.area_intro{
+  padding: 255px 0;
+  font-size: 16px;
+  background-color: #000;
+  color: #fff;
+}
+
+.text_intro h1{
+  font-size: 50px;
+  margin-bottom: 10px;
+}
