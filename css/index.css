@@ -6,14 +6,80 @@
 
 /**************************************************/
 
+/* area_intro */
+
 .area_intro{
-  padding: 255px 0;
-  font-size: 16px;
-  background-color: #000;
-  color: #fff;
+	height: 740px;
+	font-size: 16px;
+}
+
+#particles-js{
+	position: absolute;
+	width: 100%;
+}
+
+.text_intro{
+	position: relative;
+	display: inline-block;
+	padding-top: 280px;
+	float: left;
+	z-index: 100;
 }
 
 .text_intro h1{
-  font-size: 50px;
-  margin-bottom: 10px;
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+.img_intro{
+	position: absolute;
+	top: 20%;
+	left: 60%;
+}
+
+/* area_work */
+
+.area_work{
+	position: relative;
+	padding: 100px 0;
+	background: linear-gradient(to bottom, #000, #0e122d);
+}
+
+.text_work{
+	margin-bottom: 60px;
+}
+
+.text_work h2{
+	font-size: 45px;
+	margin-bottom: 10px;
+}
+
+.list_work li{
+	display: inline-block;
+	width: 580px;
+	height: 380px;
+	float: left;
+	margin-bottom: 40px;
+	background-color: #ddd;
+}
+
+.list_work li:nth-child(odd){
+	margin-right: 40px;
+}
+
+/* area_banner */
+
+.area_banner{
+	text-align: right;
+	font-size: 16px;
+	background-color: #fbbc05;
+	padding: 70px 0;
+}
+
+.text_banner{
+	display: inline-block;
+}
+
+.text_banner h3{
+	font-size: 40px;
 }

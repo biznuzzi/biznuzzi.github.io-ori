@@ -6,3 +6,41 @@
 
 /**************************************************/
 
+footer{
+	box-sizing: border-box;
+	padding: 25px 0;
+}
+
+footer h1{
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 3px;
+	margin-bottom: 15px;
+}
+
+.list_footer{
+	display: inline-block;
+}
+
+.list_footer li{
+	display: inline-block;
+	line-height: 30px;
+	margin-right: 60px;
+}
+
+.list_footer li a{
+	transition: 0.3s;
+	opacity: 0.5;
+}
+
+.list_footer li a:hover{
+	opacity: 1;
+	text-decoration: underline;
+}
+
+.area_footer p{
+	display: inline-block;
+	line-height: 30px;
+	font-size: 12px;
+	float: right;
+}

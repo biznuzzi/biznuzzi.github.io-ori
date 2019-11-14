@@ -57,6 +57,12 @@ body{
 	font-size: 14px;
 	font-weight: 400;
 	word-break: keep-all;
+  color: #fff;
+  background-color: #000;
+}
+
+a:hover{
+  cursor: pointer;
 }
 
 .clearfix:after{
@@ -65,7 +71,7 @@ body{
   clear: both;
 }
 
-.layout_container{
+.container_layout{
   box-sizing: border-box;
   max-width: 1280px;
   padding: 0 40px;
